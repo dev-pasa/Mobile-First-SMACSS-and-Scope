@@ -63,5 +63,34 @@ body {
 }
 
 @media only screen and (max-width: 960px) {
-  
-}
+  #a {
+    height: 100px;
+    background-color: rgb(224, 222, 217);
+  }
+
+  #b{
+    float: left;
+    widows: 200px;
+    }
+  #c{
+    width :380px;
+  }
+  #d{
+    width:380px;
+  }
+  #e{
+    width:190px;
+  }
+  #f{
+    widows: 190px;
+  }
+  #g{
+    width:190px;
+  }
+  #h{
+    widows: 190px;
+  }
+  #i{
+    widows: 760px;
+  }
+  }

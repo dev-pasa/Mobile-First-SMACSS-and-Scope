@@ -1,135 +1,110 @@
-body * {
-  
-    text-align: justify;
-    font-size: 45px;
-    vertical-align: baseline;
-}
 * {
   padding: 0;
   margin: 0;
 }
-
-@media screen and (max-width: 767px) {
-#a {
-  width: 100%;
+main{
+  width: 100vw;
+}
+ 
+#a{
   height: 75px;
-  background-color: red;   
 }
 
-#b {
-  width: 100%;
-  height: 150px;
-  background-color: rgb(150, 150, 182);
+#b{
+  height:150px;
 }
-#c {
-  width:  100%;
-  height: 125px; 
-  background-color: rgb(181, 201, 201);
-}
-#d {
-  width: 100%;
+
+#c{
+  width: 100vw;
   height: 125px;
-  background-color: rgb(121, 90, 90);
+  }
+#d{
+  height: 125px;
+  }
+
+#container2 {
+  display: flex;
 }
 
-#e {
-  width: 50%;
+#e{
+  width: 50vw;
   height: 250px;
-  float: left;
-  background-color: gray;
 }
-
-#f {
-  width: 50%;
+#f{
+  width: 50vw;
   height: 250px;
-  float: right;
-  background-color: darkgoldenrod;
 }
 
-#g {
-  width: 50%;
+#container3{
+  display:flex;  
+}
+
+#g{
+  width: 50vw;
   height: 250px;
-  float: left;
-  background-color: darkgreen;
 }
-
-#h {
-  width: 50%;
+#h{
+  width: 50vw;
   height: 250px;
-  float: right;
-  background-color: blue;
 }
-
-#i {
-  width: 100%;
-  height: 80px;
+#i{
   clear: both;
-  background-color: royalblue; 
-} 
+  height: 80px;
+ }
+
+
+
+@media only screen and (min-width : 768px){
+
+#a{    
+    height: 100px;
 }
-
-@media screen and (min-width: 768px) {
-  #a {
-      width: 100%;
-      height: 100px;
-      background-color: red; 
-  }
-  
-  #b {
-      width: 20%;
-      height: 600px;
-      float: left;
-      background-color: rgb(150, 150, 182);
+#b{
+    position: absolute;
+    width: 20%;
+    height: 600px;
+}
+ #large{
+      display: flex;
+      left:20%; 
   }
 
-  #c {
-      width:  40%;
-      height: 200px;
-      float: left;
-      background-color: rgb(181, 201, 201);
-  }
-
-  #d {
-      width: 40%;
-      height: 200px;
-      float: right;
-      background-color: rgb(121, 90, 90);
-  }
-  
-  #e {
-      width: 20%;
-      height: 250px;
-      float: left;
-      background-color: gray;
-  }
-  
-  #f {
-      width: 20%;
-      height: 250px;
-      float: left;
-      background-color: darkgoldenrod;
-  }
-  
-  #g {
-      width: 20%;
-      height: 250px;
-      float: left;
-      background-color: darkgreen;
-  }
-  
-  #h {
-      width: 20%;
-      height: 250px;
-      float: right;
-      background-color: blue;
-  }
-  
-  #i {
+#container1{
+      position: relative;
+      left:20%; 
+      display:flex;
       width: 80%;
-      height: 150px;
-      float: right;
-      clear: none;
-      background-color: royalblue;
   }
+  
+  #c{
+      width: 40vw;
+      height: 200px;
+  }
+  #d{
+      width: 40vw;
+      height: 200px;
+  }
+
+  #e{
+      width: 20vw;
+      height: 250px;
+  }
+  #f{
+      width: 20vw;
+      height: 250px;
+  }
+  #g{
+      width: 20vw;
+      height: 250px;
+  }
+  #h{
+      width: 20vw;
+      height: 250px;
+  }
+  #i{
+      width: 100vw;
+      height: 150px;
+  }
+
 }
 
